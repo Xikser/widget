@@ -1,9 +1,7 @@
 <template>
-	<router-view v-slot="{ Component }">
-		<transition name="viewer" mode="out-in">
-			<component :is="Component"/>
-		</transition>
-	</router-view>
+	<main>
+		<Player></Player>
+	</main>
 </template>
 
 <script>
@@ -27,16 +25,26 @@ body
 	overflow-x: hidden
 	background: white
 	width: 100%
-	color: $color--dark
+	color: $color--light
 	font-family: $font--default
 
 main
 	position: relative
 	width: 100%
+	min-height: 100vh
 	margin: auto
+	display: flex
+	align-items: center
+	justify-content: center
+	background-image: url("./assets/images/bg.jpg")
+	background-size: cover
+	background-repeat: no-repeat
+	background-position: center center
 
-.main
-	width: 144em
+button
+	outline: none
+	border: 0
+	background: transparent
 
 i
 	color: $color--dark
