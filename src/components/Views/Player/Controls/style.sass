@@ -1,0 +1,64 @@
+@import '../../../../assets/sass/variables'
+
+.controls
+	position: relative
+	width: 100%
+	height: 100%
+
+	&__content
+		width: 100%
+		height: 100%
+		display: flex
+		flex-direction: row
+		align-items: center
+		justify-content: space-evenly
+
+	&__tile
+		display: flex
+		flex-direction: row
+		align-items: center
+		justify-content: center
+
+	&__button
+		position: relative
+		display: flex
+		align-items: center
+		justify-content: center
+		cursor: pointer
+		border-radius: 50%
+		margin: 0 15px
+		background: $color--light
+		font-size: 1.5rem
+
+	.play, .pause
+
+		i
+			display: flex
+			align-items: center
+			justify-content: center
+			width: 50px
+			height: 50px
+			z-index: 5
+			border-radius: 50%
+			background: $color--accent
+
+	.play, .pause, .prev, .next
+		background: $color--accent
+
+		i
+			color: $color--light
+			z-index: 5
+
+
+	.prev, .next, .favourite, &__link
+		width: 36px
+		height: 36px
+
+	&__link
+		i
+			color: $color--accent
+
+	.favourite
+
+		i
+			color: $color--accent-red
