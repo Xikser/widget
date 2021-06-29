@@ -1,0 +1,36 @@
+@import '../../../../assets/sass/variables'
+
+.volume
+	position: relative
+	width: 100%
+	height: 10px
+
+	&__bar
+		position: relative
+		width: 100%
+		height: 10px
+		background: $color--accent-red
+
+	&__bar-hover
+		position: absolute
+		top: 0
+		left: 0
+		width: 75%
+		height: 100%
+		background: $color--light
+
+	&__icon
+		position: absolute
+		top: -5px
+		left: 70%
+		width: 20px
+		height: 20px
+		border-radius: 50%
+		display: flex
+		justify-content: center
+		align-items: center
+		color: $color--accent
+		box-shadow: 0 0 15px -5px black
+		background: white
+		cursor: grab
+		z-index: 10
