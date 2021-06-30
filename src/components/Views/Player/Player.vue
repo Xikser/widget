@@ -1,7 +1,7 @@
 <template>
 	<section class="player">
 		<div class="player__top-content">
-			<TopNav></TopNav>
+			<TopControls></TopControls>
 			<TrackViewer></TrackViewer>
 		</div>
 		<div class="player__bottom-content">

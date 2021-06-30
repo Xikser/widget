@@ -1,6 +1,6 @@
 import Controls from './Controls/Controls'
 import Volume from './Volume/Volume'
-import TopNav from './TopNav/TopNav'
+import TopControls from './TopNav/TopControls'
 import TrackViewer from './TrackViewer/TrackViewer'
 
 export default {
@@ -8,7 +8,7 @@ export default {
 	components: {
 		Controls,
 		Volume,
-		TopNav,
+		TopControls,
 		TrackViewer,
 	}
 }
