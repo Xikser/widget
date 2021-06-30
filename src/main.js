@@ -5,8 +5,10 @@ import store from './store'
 
 import Player from './components/Views/Player/Player'
 import TrackList from './components/Views/TrackList/TrackList'
+import Navbar from './components/GlobalComponents/Navbar/Navbar'
 
 createApp(App)
+	.component('Navbar', Navbar)
 	.component('Player', Player)
 	.component('TrackList', TrackList)
 	.use(store)
