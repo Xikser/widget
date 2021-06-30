@@ -1,0 +1,63 @@
+@import '../../../../assets/sass/variables'
+
+.track
+	width: 100%
+	height: 55px
+	border-bottom: 1px solid lightgray
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+	margin: 15px 0
+	cursor: pointer
+	transition: all .3s ease
+
+	&:hover
+		border-bottom: 1px solid $color--accent-red
+
+	&__info
+		width: 80%
+		display: flex
+		flex-direction: column
+		color: #78747F
+
+		span
+			margin: 0 5px
+			cursor: default
+
+		&-box
+			display: flex
+			flex-direction: row
+
+	&__length, &__artist
+		cursor: default
+		font-size: 1.2rem
+
+	&__title
+		margin-top: 5px
+		cursor: default
+		color: $color--accent
+		font-size: 1.6rem
+
+	&__icons
+		height: 100%
+		display: flex
+		align-items: center
+
+		i
+			margin: 0 7px
+			font-size: 1.3rem
+
+			&:nth-child(1)
+				color: $color--accent
+
+			&:nth-child(2)
+				color: $color--accent-red
+
+.placeholder
+	position: absolute
+	bottom: 0
+	left: 0
+	width: 100%
+	height: 50px
+	background: $color--gray
+	box-shadow: 0 0 25px 0 $color--gray
