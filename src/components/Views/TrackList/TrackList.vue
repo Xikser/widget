@@ -2,7 +2,7 @@
 	<section class="tracklist">
 		<div class="tracklist__header">
 			<a class="tracklist__button">
-				<img src="../../../assets/images/arrow.svg" alt="arrow">
+				<img src="../../../assets/images/arrow.svg" alt="arrow" @click="handleClick">
 			</a>
 
 			<h2>Playlist</h2>

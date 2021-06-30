@@ -1,5 +1,5 @@
 <template>
-	<div class="track">
+	<div class="track" @click="handleClick">
 		<div class="track__info">
 			<div class="track__info-box">
 				<p class="track__length">{{ track.length }}</p>
