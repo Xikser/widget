@@ -11,4 +11,9 @@ export default {
 			tracks: tracks
 		}
 	},
+	methods: {
+		handleClick() {
+			this.$emit('clicked')
+		}
+	}
 }
