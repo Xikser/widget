@@ -7,10 +7,6 @@
 				<i class="fas fa-redo"></i>
 			</div>
 		</div>
-
-		<button class="navbar">
-			<i class="fas fa-bars"></i>
-		</button>
 	</div>
 </template>
 
