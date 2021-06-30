@@ -5,10 +5,15 @@ import TrackViewer from './TrackViewer/TrackViewer'
 
 export default {
 	name: 'Player',
+	props: {
+		track: {
+			type: Object,
+		},
+	},
 	components: {
 		Controls,
 		Volume,
 		TopControls,
 		TrackViewer,
-	}
+	},
 }
