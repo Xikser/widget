@@ -1,7 +1,7 @@
 <template>
-	<div class="top-nav">
-		<div class="top-nav__content">
-			<div class="top-nav__control-icons">
+	<div class="top-controls">
+		<div class="top-controls__content">
+			<div class="top-controls__control-icons">
 				<i class="fas fa-retweet"></i>
 				<i class="fas fa-random"></i>
 				<i class="fas fa-redo"></i>

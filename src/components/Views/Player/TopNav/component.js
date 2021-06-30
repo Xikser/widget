@@ -1,3 +1,3 @@
 export default {
-	name: 'Top nav'
+	name: 'Top Controls'
 }
