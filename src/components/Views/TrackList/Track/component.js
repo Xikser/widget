@@ -6,4 +6,9 @@ export default {
 			required: true
 		}
 	},
+	methods: {
+		handleClick() {
+			this.$parent.$emit('changeTrack', this.track)
+		}
+	}
 }
