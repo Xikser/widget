@@ -1,6 +1,7 @@
 <template>
 	<main>
 		<Player></Player>
+		<TrackList></TrackList>
 	</main>
 </template>
 
