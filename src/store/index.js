@@ -6,7 +6,10 @@ import actions from './actions'
 import modules from './modules'
 
 export default createStore({
-	state: {},
+	state: {
+		prevButtonStatus: true,
+		nextButtonStatus: false,
+	},
 	getters,
 	mutations,
 	actions,
